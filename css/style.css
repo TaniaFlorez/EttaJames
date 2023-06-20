@@ -1,0 +1,307 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+ header {
+    background-color: rgb(249, 230, 230);
+    color: black;
+ }
+body {
+    text-align: center;
+    background-image: url(/images/disco.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Space Mono', monospace;
+}
+/*menu*/
+a {
+    display: flex;
+    width: 150px;
+    height: 50px;
+    background-color: rgb(249, 230, 230);
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px;
+    text-decoration: none;
+}
+/*ORGANIZACIÓN MENÚ*/
+nav ul li{
+    display: inline-flex;
+}
+/*MOCKUP*/
+.caja1 {
+    grid-area: caj1;
+    background-color: rgb(66, 186, 70);
+}
+
+.caja2 {
+    grid-area: caj2;
+    background-color: rgb(110, 97, 39);
+}
+
+.caja3 {
+    grid-area: caj3;
+    background-color: rgb(230, 204, 10);
+}
+
+.caja4 {
+    grid-area: caj4;
+    background-color: rgb(244, 222, 114);
+}
+
+.caja5 {
+    grid-area: caj5;
+    background-color: rgb(74, 123, 228);
+}
+
+.caja6 {
+    grid-area: caj6;
+    background-color: rgb(126, 113, 202);
+}
+
+.caja7 {
+    grid-area: caj7;
+    background-color: rgb(239, 30, 131);
+}
+.caja8 {
+    grid-area: caj8;
+    background-color: rgb(240, 125, 9);
+}
+.caja9 {
+    grid-area: caj9;
+    background-color: rgb(30, 141, 86);
+}
+/*ORDEN CONTENEDOR*/
+.grid-container {
+    display: grid;
+    grid-template-areas: 
+    'caj1 caj1 caj2 caj2 caj3 caj3'
+    'caj4 caj4 caj5 caj5 caj6 caj6'
+    'caj7 caj7 caj8 caj8 caj9 caj9';
+    grid-template-rows: auto;
+    gap: 10px;
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+    margin: 160px;
+}
+
+.grid-container > div {
+    padding: 30px 0;
+    font-size: 25px;
+}
+/*MOCKUP2*/
+.blo1 {
+    grid-area: blo1;
+    background-color: rgb(175, 171, 152);
+}
+
+.blo2 {
+    grid-area: blo2;
+    background-color: rgb(88, 85, 72);
+}
+
+.blo3 {
+    grid-area: blo3;
+    background-color: rgb(218, 216, 201);
+}
+
+.blo4 {
+    grid-area: blo4;
+    background-color: rgb(175, 171, 152);
+}
+
+.blo5 {
+    grid-area: blo5;
+    background-color: rgb(88, 85, 72);
+}
+
+.blo6 {
+    grid-area: blo6;
+    background-color: rgb(218, 216, 201);
+}
+
+.blo7 {
+    grid-area: blo7;
+    background-color: rgb(175, 171, 152);
+}
+.blo8 {
+    grid-area: blo8;
+    background-color: rgb(88, 85, 72);
+}
+.blo9 {
+    grid-area: blo9;
+    background-color: rgb(218, 216, 201);
+}
+/*ORDEN CONTENEDOR2*/
+.grid-container2 {
+    display: grid;
+    grid-template-areas: 
+    'blo1 blo1 blo1 blo1 blo1 blo1'
+    'blo1 blo1 blo1 blo1 blo1 blo1'
+    'blo2 blo2 blo2 blo3 blo3 blo3'
+    'blo4 blo4 blo4 blo5 blo5 blo5'
+    'blo6 blo6 blo6 blo7 blo7 blo7'
+    'blo8 blo8 blo8 blo9 blo9 blo9';
+    grid-template-rows: auto;
+    gap: 10px;
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+    margin: 200px;
+}
+
+.grid-container2 > div {
+    padding: 10px 0;
+    font-size: 10px;
+}
+/*MOCKUP3*/
+.c1 {
+    grid-area: c1;
+    background-color: rgb(175, 171, 152);
+}
+
+.c2 {
+    grid-area: c2;
+    background-color: rgb(88, 85, 72);
+}
+
+.c3 {
+    grid-area: c3;
+    background-color: rgb(218, 216, 201);
+}
+
+.c4 {
+    grid-area: c4;
+    background-color: rgb(175, 171, 152);
+}
+
+.c5 {
+    grid-area: c5;
+    background-color: rgb(88, 85, 72);
+}
+/*ORDEN CONTENEDOR3*/
+.grid-container3 {
+    display: grid;
+    grid-template-areas: 
+    'c1 c1 c1 c1 c1 c1'
+    'c1 c1 c1 c1 c1 c1'
+    'c2 c2 c2 c3 c3 c3'
+    'c2 c2 c2 c3 c3 c3'
+    'c4 c4 c4 c5 c5 c5'
+    'c4 c4 c4 c5 c5 c5';
+    gap: 10px;
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+    margin: 150px;
+}
+
+.grid-container3 > div {
+    padding: 20px 0;
+    font-size: 15px;
+}
+/*MOCKUP4*/
+.box1 {
+    grid-area: box1;
+    background-color: rgb(175, 171, 152);
+}
+
+.box2 {
+    grid-area: box2;
+    background-color: rgb(88, 85, 72);
+}
+
+.box3 {
+    grid-area: box3;
+    background-color: rgb(218, 216, 201);
+}
+
+.box4 {
+    grid-area: box4;
+    background-color: rgb(175, 171, 152);
+}
+
+.box5 {
+    grid-area: box5;
+    background-color: rgb(88, 85, 72);
+}
+.box6 {
+    grid-area: box6;
+    background-color: rgb(175, 171, 152);
+}
+
+.box7 {
+    grid-area: box7;
+    background-color: rgb(88, 85, 72);
+}
+.box8 {
+    grid-area: box8;
+    background-color: rgb(175, 171, 152);
+}
+
+.box9 {
+    grid-area: box9;
+    background-color: rgb(88, 85, 72);
+}
+/*ORDEN CONTENEDOR4*/
+.grid-container4 {
+    display: grid;
+    grid-template-areas: 
+    'box1 box1 box1 box1 box1 box1'
+    'box1 box1 box1 box1 box1 box1'
+    'box2 box2 box2 box3 box3 box3'
+    'box4 box4 box4 box5 box5 box5'
+    'box6 box6 box6 box7 box7 box7'
+    'box8 box8 box8 box9 box9 box9';
+    grid-template-rows: auto;
+    gap: 10px;
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+    margin: 100px;
+}
+
+.grid-container4 > div {
+    padding: 20px 0;
+    font-size: 15px;
+}
+/*MOCKUP5*/
+.bx1 {
+    grid-area: bx1;
+    background-color: rgb(175, 171, 152);
+}
+
+.bx2 {
+    grid-area: bx2;
+    background-color: rgb(88, 85, 72);
+}
+
+.bx3 {
+    grid-area: bx3;
+    background-color: rgb(218, 216, 201);
+}
+
+.bx4 {
+    grid-area: bx4;
+    background-color: rgb(175, 171, 152);
+}
+/*ORDEN CONTENEDOR5*/
+.grid-container5 {
+    display: grid;
+    grid-template-areas: 
+    'bx1 bx1 bx1 bx1 bx1 bx1'
+    'bx2 bx2 bx2 bx2 bx2 bx2'
+    'bx3 bx3 bx3 bx3 bx3 bx3'
+    'bx4 bx4 bx4 bx4 bx4 bx4';
+    grid-template-rows: auto;
+    gap: 10px;
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+    margin: 100px;
+}
+
+.grid-container5 > div {
+    padding: 20px 0;
+    font-size: 15px;
+}

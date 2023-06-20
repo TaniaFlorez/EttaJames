@@ -35,17 +35,17 @@ nav ul li{
 /*MOCKUP*/
 .caja1 {
     grid-area: caj1;
-    background-color: rgb(66, 186, 70);
+    background-color: rgb(175, 171, 152);
 }
 
 .caja2 {
     grid-area: caj2;
-    background-color: rgb(110, 97, 39);
+    background-color: rgb(88, 85, 72);
 }
 
 .caja3 {
     grid-area: caj3;
-    background-color: rgb(230, 204, 10);
+    background-color: rgb(218, 216, 201);
 }
 
 .caja4 {
